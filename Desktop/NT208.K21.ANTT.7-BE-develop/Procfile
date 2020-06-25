@@ -1,0 +1,1 @@
+web: gunicorn vgo.wsgi

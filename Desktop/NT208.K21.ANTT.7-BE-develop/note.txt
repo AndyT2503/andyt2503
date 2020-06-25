@@ -1,0 +1,5 @@
+sudo snap install --classic heroku
+pip3 install psycopg2==2.7.5
+#create static
+python manage.py collectstatic 
+sudo heroku auth:token

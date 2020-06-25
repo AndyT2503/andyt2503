@@ -1,0 +1,10 @@
+django-extensions
+PyJWT
+djangorestframework
+django-cors-headers
+gunicorn
+python-dotenv
+psycopg2==2.7.5
+django-heroku
+whitenoise
+Pillow
