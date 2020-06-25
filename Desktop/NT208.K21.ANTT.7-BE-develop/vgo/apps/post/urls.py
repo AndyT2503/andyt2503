@@ -19,7 +19,10 @@ urlpatterns = [
     #     PostsFavoriteAPIView.as_view()),
 
 
-    #.../api/posts/list/?search=
+    #.../a/postspi/list/?search=
+    #.../a/postspi/list/?title=1&search=
+    #.../a/postspi/list/?body=1&search=
+    #.../a/postspi/list/?author=1&search=
     url(r'^posts/list/?$',ApiPostListView.as_view()),
 
 

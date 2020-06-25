@@ -49,7 +49,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'vgo.apps.core',
-    'vgo.apps.post'
+    'vgo.apps.post',
+    
+
 ]
 
 MIDDLEWARE = [
@@ -145,6 +147,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'authentication.backends.JWTAuthentication',
     ),
+    
 }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

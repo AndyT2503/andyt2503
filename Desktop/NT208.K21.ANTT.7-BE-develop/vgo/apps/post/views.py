@@ -7,23 +7,24 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from rest_framework.filters import SearchFilter, OrderingFilter
-
+from rest_framework import filters
 from .models import Post, Comment
 from .renderers import PostJSONRenderer, CommentJSONRenderer
 from .serializers import PostSerializer, CommentSerializer
+from url_filter.integrations.drf import DjangoFilterBackend
 
 
 class PostViewSet(mixins.CreateModelMixin, 
                      mixins.ListModelMixin,
                      mixins.RetrieveModelMixin,
-                     viewsets.GenericViewSet):
+                     viewsets.GenericViewSet,):
 
     lookup_field = 'slug'
     queryset = Post.objects.select_related('author', 'author__user')
     permission_classes = (IsAuthenticatedOrReadOnly,)
     #renderer_classes = (PostJSONRenderer,)
     serializer_class = PostSerializer
-
+    
     
     def get_queryset(self):
         queryset = self.queryset
@@ -108,12 +109,25 @@ class PostViewSet(mixins.CreateModelMixin,
 
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+class CustomSearchFilter(SearchFilter):
+    def get_search_fields(self, view, request):
+        if request.query_params.get('title'):
+            return ['title']
+        if request.query_params.get('body'):
+            return ['body']
+        if request.query_params.get('author'):
+            return ['author__name']
+        return super(CustomSearchFilter, self).get_search_fields(view, request)
+
+
+
 class ApiPostListView(generics.ListAPIView):
 	queryset = Post.objects.all()
 	serializer_class = PostSerializer
 	permission_classes = (IsAuthenticatedOrReadOnly,)
-	filter_backends = (SearchFilter, OrderingFilter)
+	filter_backends = (CustomSearchFilter, OrderingFilter)
 	search_fields = ('title', 'body', 'author__name')
+
 
 
 
@@ -175,7 +189,7 @@ class CommentsDestroyAPIView(generics.DestroyAPIView):
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-
+'''
 class PostsFeedAPIView(generics.ListAPIView):
      permission_classes = (IsAuthenticated,)
      queryset = Post.objects.all()
@@ -196,4 +210,4 @@ class PostsFeedAPIView(generics.ListAPIView):
              page, context=serializer_context, many=True
          )
 
-         return self.get_paginated_response(serializer.data)
+         return self.get_paginated_response(serializer.data)'''
