@@ -3,6 +3,12 @@
 - 👀 Senior Software Engineer at [HCL Technolgy](https://www.hcltech.com/ "HCL Technology")
 - 💖 Angular, Typescript, .NET Core, JavaScript,... 
 - 📫 How to reach me: [@AndyTuHoang](https://www.facebook.com/AndyTu.Hoang/ "Tu Hoang")
+
+## 🤝 Connect with me:
+
+[<img align="left" alt="AndyT2503 | Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />](https://www.facebook.com/AndyTu.Hoang/)
+[<img align="left" alt="AndyT2503 | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/tu-hoang-787951195/)
+[<img align="left" alt="AndyT2503 | Dev.to" src="https://img.shields.io/badge/Dev.to-12100E?style=for-the-badge&logo=devdotto&logoColor=white%22" />](https://dev.to/andyt2503)
 <br />
 <br />
 
