@@ -34,7 +34,7 @@
 <br />
 <br /> 
 
-| <a href="https://github.com/AnkitSharma-007/AnkitSharma-007"><img align="center" src="https://github-readme-stats.vercel.app/api?username=AndyT2503&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="AndyT's github stats" /></a> | <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyT2503&layout=compact&theme=buefy&hide_border=true"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyT2503&layout=compact&theme=buefy&hide_border=true" alt="AndyT's Most Used Languages"/></a> |
+| <a href="https://github.com/AndyT2503"><img align="center" src="https://github-readme-stats.vercel.app/api?username=AndyT2503&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="AndyT's github stats" /></a> | <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyT2503&layout=compact&theme=buefy&hide_border=true"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyT2503&layout=compact&theme=buefy&hide_border=true" alt="AndyT's Most Used Languages"/></a> |
 | ------------- | ------------- |
 
 <br />
