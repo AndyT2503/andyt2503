@@ -28,6 +28,7 @@
 <br /> 
 
 ## 📝 Latest Blog Posts
+- [The power of conditional type in Angular](https://andyt2503.github.io/blog/the-power-of-conditional-type-in-angular)
 - [Deep understanding about Expression has changed after it was checked](https://andyt2503.github.io/blog/deep-understanding-about-expression-has-changed-after-it-was-checked)
 - [What is NgZone and How it trigger Change Detection In Angular](https://andyt2503.github.io/blog/what-is-ngzone-and-how-it-trigger-change-detection)
 - [Fix 404 error when refreshing Github Pages with Custom builder](https://andyt2503.github.io/blog/fix-404-error-when-refreshing-github-page-with-custom-builder)
