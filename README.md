@@ -1,6 +1,6 @@
 # Hi, I am [Tu Hoang](https://andyt2503.github.io/ "tuhoang") 👋 <img align="right" src="https://komarev.com/ghpvc/?username=AndyT2503" alt="AndyT2503" />
 
-- 👀 Senior Software Engineer at [HCL Technology](https://www.hcltech.com/ "HCL Technology")
+- 👀 Frontend Engineer at [TecAlliance](https://www.tecalliance.net/ "TecAlliance")
 - 💖 Angular, Typescript, .NET Core, JavaScript,... 
 - 📫 How to reach me: [@AndyTuHoang](https://www.facebook.com/AndyTu.Hoang/ "Tu Hoang")
 
